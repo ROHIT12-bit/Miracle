@@ -29,11 +29,11 @@ class Config(object):
 class Txt(object):
     # part of text configuration
         
-    START_TXT = """<blockquote>𝙃𝙀𝙔 {user_name}!</blockquote>
+    START_TXT = """<blockquote>𝙃𝙀𝙔 {mention}!</blockquote>
 
 <blockquote>» ɪ'ᴍ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ʀᴇɴᴀᴍᴇ ʙᴏᴛ! ɪ ᴄᴀɴ ᴀᴜᴛᴏ-ʀᴇɴᴀᴍᴇ ʏᴏᴜʀ ғɪʟᴇs ᴡɪᴛʜ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴs, ᴛʜᴜᴍʙɴᴀɪʟs, ᴀɴᴅ ᴘᴇʀғᴇᴄᴛ sᴇǫᴜᴇɴᴄɪɴɢ.</blockquote>
 
-<blockquote>✦ <a href="https://t.me/public_miracle_bots">𝙈𝙞𝙧𝙖𝙘𝙡𝙚 𝘽𝙤𝙩𝙨</a></blockquote>"""
+<blockquote>✦ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ: <a href="https://t.me/public_miracle_bots">𝙈𝙞𝙧𝙖𝙘𝙡𝙚 𝘽𝙤𝙩𝙨</a></blockquote>"""
     
     FILE_NAME_TXT = """<b>» <u>sᴇᴛᴜᴘ ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ ғᴏʀᴍᴀᴛ</u></b>
 
