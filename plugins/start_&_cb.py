@@ -57,8 +57,8 @@ async def start(client, message: Message):
             InlineKeyboardButton("• ᴍʏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs •", callback_data='help')
         ],
         [
-            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs', url='https://t.me/botskingdoms'),
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ •', url='https://t.me/botskingdomsgroup')
+            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs', url='https://t.me/+kWnTxtqBzDs4MGJl'),
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ •', url='https://t.me/+2dC8PwGsEutjMzI1')
         ],
         [
             InlineKeyboardButton('• ᴀʙᴏᴜᴛ', callback_data='about'),
@@ -104,7 +104,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("• ᴍʏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs •", callback_data='help')],
-                [InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs', url='https://t.me/botskingdoms'), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ •', url='https://t.me/botskingdoms')],
+                [InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs', url='https://t.me/+kWnTxtqBzDs4MGJl'), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ •', url='https://t.me/+2dC8PwGsEutjMzI1')],
                 [InlineKeyboardButton('• ᴀʙᴏᴜᴛ', callback_data='about'), InlineKeyboardButton('Dᴇᴠᴇʟᴏᴘᴇʀ •', url='https://t.me/botskingdoms')]
             ])
         )
@@ -113,7 +113,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.CAPTION_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ", url='https://t.me/botskingdomsgroup'), InlineKeyboardButton("ʙᴀᴄᴋ •", callback_data="help")]
+                [InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ", url='https://t.me/+2dC8PwGsEutjMzI1'), InlineKeyboardButton("ʙᴀᴄᴋ •", callback_data="help")]
             ])
         )
 
